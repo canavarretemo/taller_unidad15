@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping
 import org.springframework.web.bind.annotation.PutMapping
 
 @RestController
-class PatientController
+class PatientController{
     @Autowired
     private lateinit var patientService: PatientService
     @GetMapping(Patient)
